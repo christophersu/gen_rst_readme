@@ -19,4 +19,8 @@ def convert_md_to_rst():
     f.write(filtered)
     f.close()
 
-convert_md_to_rst()
+def main():
+    convert_md_to_rst()
+
+if __name__ == '__main__':
+    main()
